@@ -33,6 +33,23 @@
 <p>mpush，是一款开源的实时消息推送系统，采用java语言开发，服务端采用模块化设计，具有协议简洁，传输安全，接口流畅，实时高效，扩展性强，可配置化，部署方便，监控完善等特点。同时也是少有的可商用的开源推送系统。</p>
 
 <h3>
+<a id="特性和优势" class="anchor" href="#%E7%89%B9%E6%80%A7%E5%92%8C%E4%BC%98%E5%8A%BF" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>特性和优势</h3>
+
+<ol>
+<li>源码全部开放，包括server、android、ios (不像有些开源服务只开放部分代码，鄙视下)</li>
+<li>代码质量高，全部模块化设计，真正的商用级产品，考虑到推送中遇到的大部分场景</li>
+<li>安全性高，基于RSA精简的加密握手协议，简单，高效，安全</li>
+<li>支持断线重连，及弱网下的快速重连，无网络下自动休眠节省电量和资源</li>
+<li>协议简洁，接口流畅，支持数据压缩，更加节省流量</li>
+<li>支持集群部署，支持负载均衡，基于成熟的zookeeper实现</li>
+<li>用户路由使用redis集群，支持单写，双写，集群分组；性能好，可用性高</li>
+<li>支持http代理，一根TCP链接接管应用大部分请求，让http请求更加及时</li>
+<li>高度可配置化，基本上通过修改配置可满足大部分场景</li>
+<li>扩展性强，高度模块化，基于SPI模式的可拔插设计，以满足特殊需求</li>
+<li>监控完善，日志详细，可快速排查线上问题及服务调优</li>
+</ol>
+
+<h3>
 <a id="教程与文档" class="anchor" href="#%E6%95%99%E7%A8%8B%E4%B8%8E%E6%96%87%E6%A1%A3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>教程与文档</h3>
 
 <p><a href="/docs">文档点击我</a></p>
