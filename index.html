@@ -1,35 +1,33 @@
 <!DOCTYPE html>
 <html>
+
   <head>
     <meta charset='utf-8'>
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <link href='https://fonts.googleapis.com/css?family=Chivo:900' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-dark.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/print.css" media="print">
-    <!--[if lt IE 9]>
-    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
-    <title>mpush by mpusher</title>
+    <meta name="description" content="mpush : 基于Netty的实时开源消息推送系统">
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>mpush</title>
   </head>
 
   <body>
-    <div id="container">
-      <div class="inner">
 
-        <header>
-          <h1>mpush</h1>
-          <h2>基于Netty的实时开源消息推送系统</h2>
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/mpusher">View on GitHub</a>
+
+          <h1 id="project_title">mpush</h1>
+          <h2 id="project_tagline">基于Netty的实时开源消息推送系统</h2>
+
         </header>
+    </div>
 
-        <section id="downloads" class="clearfix">
-          <a href="https://github.com/mpusher" id="view-on-github" class="button"><span>View on GitHub</span></a>
-        </section>
-
-        <hr>
-
-        <section id="main_content">
-          <h3>
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h3>
 <a id="系统介绍" class="anchor" href="#%E7%B3%BB%E7%BB%9F%E4%BB%8B%E7%BB%8D" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>系统介绍.</h3>
 
 <p>mpush，是一款开源的实时消息推送系统，采用java语言开发，服务端采用模块化设计，具有协议简洁，传输安全，接口流畅，实时高效，扩展性强，可配置化，部署方便，监控完善等特点。同时也是少有的可商用的开源推送系统。</p>
@@ -54,9 +52,9 @@
 <h3>
 <a id="教程与文档" class="anchor" href="#%E6%95%99%E7%A8%8B%E4%B8%8E%E6%96%87%E6%A1%A3" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>教程与文档</h3>
 
-<p><a href="/docs">开发手册点击我</a></p>
+<p><a href="/docs">开发手册</a></p>
 
-<p><a href="/docs/chapter12.html">服务部署手册</a></p>
+<p><a href="https://github.com/mywiki/docs/blob/book/%E5%AE%8C%E6%95%B4%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%83%A8%E7%BD%B2.md">服务部署手册</a></p>
 
 <p><a href="http://fir.im/4d9e">AndroidDemo.apk</a></p>
 
@@ -64,23 +62,21 @@
 <a id="源码" class="anchor" href="#%E6%BA%90%E7%A0%81" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>源码</h3>
 
 <ul>
-<li>server <a href="https://github.com/mpusher/mpush">https://github.com/mpusher/mpush</a>
-</li>
-<li>java-client <a href="https://github.com/mpusher/mpush-client-java">https://github.com/mpusher/mpush-client-java</a>
-</li>
-<li>android sdk&amp;demo <a href="https://github.com/mpusher/mpush-android">https://github.com/mpusher/mpush-android</a>
-</li>
-<li>IOS sdk(swift)<a href="https://github.com/mpusher/mpush-client-swift">https://github.com/mpusher/mpush-client-swift</a>
-</li>
-<li>IOS sdk(OC)<a href="https://github.com/mpusher/mpush-client-oc">https://github.com/mpusher/mpush-client-oc</a>
-</li>
+<li>group <a href="https://github.com/mpusher/">https://github.com/mpusher/</a> 源代码空间</li>
+<li>server <a href="https://github.com/mpusher/mpush">https://github.com/mpusher/mpush</a> 服务端源码</li>
+<li>alloc <a href="https://github.com/mpusher/alloc">https://github.com/mpusher/alloc</a>  调度器源码</li>
+<li>mpns <a href="https://github.com/mpusher/mpns">https://github.com/mpusher/mpns</a>     个性化推送中心源码</li>
+<li>java-client <a href="https://github.com/mpusher/mpush-client-java">https://github.com/mpusher/mpush-client-java</a> 纯java客户端源码</li>
+<li>android sdk&amp;demo <a href="https://github.com/mpusher/mpush-android">https://github.com/mpusher/mpush-android</a>    安卓SDK和DEMO源码</li>
+<li>IOS sdk(swift) <a href="https://github.com/mpusher/mpush-client-swift">https://github.com/mpusher/mpush-client-swift</a> swift版客户端源码</li>
+<li>IOS sdk(OC) <a href="https://github.com/mpusher/mpush-client-oc">https://github.com/mpusher/mpush-client-oc</a>  Object C 客户端源码</li>
 </ul>
 
 <h3>
 <a id="后续目标" class="anchor" href="#%E5%90%8E%E7%BB%AD%E7%9B%AE%E6%A0%87" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>后续目标</h3>
 
 <p>因为Java的开源消息系统非常少，希望有兴趣的朋友可以一起参与进来，做一个最好的java开源消息推送系统。
-目前文档还太少，后续慢慢补充。</p>
+有兴趣加入开发组的请加我QQ。</p>
 
 <h3>
 <a id="项目成员" class="anchor" href="#%E9%A1%B9%E7%9B%AE%E6%88%90%E5%91%98" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>项目成员</h3>
@@ -96,14 +92,17 @@
 
 <p><img src="https://mpusher.github.io/docs/alipay.jpg" width="250px">
 <img src="https://mpusher.github.io/docs/wxpay.png" width="230px"></p>
-        </section>
-
-        <footer>
-          This page was generated by <a href="https://pages.github.com">GitHub Pages</a>. Tactile theme by <a href="https://twitter.com/jasonlong">Jason Long</a>.
-        </footer>
-
-        
-      </div>
+      </section>
     </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p>Published with <a href="https://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
   </body>
 </html>
